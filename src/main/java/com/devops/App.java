@@ -26,7 +26,7 @@ public class App {
         @Override
         public void handle(HttpExchange exchange) throws IOException {
 
-            String response = "Hello from mr sukanth";
+            String response = "Hello from Java DevOps App";
 
             exchange.sendResponseHeaders(200, response.length());
 
