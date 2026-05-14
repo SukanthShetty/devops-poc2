@@ -26,7 +26,7 @@ public class App {
         @Override
         public void handle(HttpExchange exchange) throws IOException {
 
-            String response = "Welcome to POC2";
+            String response = "Welcome to POC2_";
 
             exchange.sendResponseHeaders(200, response.length());
 
